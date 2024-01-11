@@ -1,6 +1,5 @@
-import java.lang.reflect.Array;
 import java.util.*;
-public class day_1 {
+public class day_1_practical_1 {
 
     public static void main(String [] args){
         // hello world
