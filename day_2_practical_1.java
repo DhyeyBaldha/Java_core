@@ -34,7 +34,7 @@ public class day_2_practical_1 {
                     if (current.next == null) {
                         previous.next=null;
                     } else {
-                        System.out.println(+data+" "+"is not last element");
+                        System.out.println(data+" "+"is not last element");
                     }
                     break;
                 }
