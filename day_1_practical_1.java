@@ -11,10 +11,10 @@ public class day_1_practical_1 {
         ArrayList<String> arr = new ArrayList<String>();
         arr.add("dhyey");
         arr.add("harshil");
-        arr.add("raj");
+        arr.add("IntegerTest");
         arr.add("radhen");
         arr.get(1);
-        arr.set(1, "riddhi");
+        arr.set(1, "vidhi");
 
 
         // normal for loop
@@ -47,22 +47,23 @@ public class day_1_practical_1 {
 
 
         // LinkedList
-        LinkedList<String> larr = new LinkedList<String>();
+        System.out.println("linked list");
+        LinkedList<String> larr = new LinkedList<>();
         larr.add("dhyey");
         larr.add("harshil");
-        larr.add("raj");
+        larr.add("IntegerTest");
         larr.add("vidz");
         larr.remove(2);
         System.out.println(larr);
 
 
         // sets
-
+        System.out.println("HASH SET");
         // hashsets
         HashSet<String> harr = new HashSet<String>();
         harr.add("dhyey");
         harr.add("harshil");
-        harr.add("raj");
+        harr.add("vidz");
         harr.add("vidz");
         System.out.println(harr);
         System.out.println(harr.contains("vidz"));
@@ -74,7 +75,7 @@ public class day_1_practical_1 {
         hmap.put(1,"dhyey");
         hmap.put(2,"vidz");
         hmap.put(3,"harshil");
-        hmap.put(4,"raj");
+        hmap.put(4,"IntegerTest");
         System.out.println(hmap);
         System.out.println(hmap.get(2));
 
